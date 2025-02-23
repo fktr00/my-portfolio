@@ -3,25 +3,25 @@
         {
             "title": "Sales Dashboard in Power BI",
             "description": "An interactive Power BI dashboard showcasing sales trends, customer segmentation, and revenue insights.",
-            "image": "images/sales-dashboard.png",
+            "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/sales-dashboard"
         },
         {
             "title": "Excel Data Analysis Report",
             "description": "A detailed Excel report analyzing company performance using pivot tables, charts, and formulas.",
-            "image": "images/excel-report.png",
+            "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/excel-report"
         },
         {
             "title": "Python Jupyter Notebook - Customer Churn",
             "description": "A predictive model built in Jupyter Notebook to analyze customer churn using machine learning.",
-            "image": "images/churn-analysis.png",
+            "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/churn-analysis"
         },
         {
             "title": "Kaggle Dataset Analysis",
             "description": "Exploratory Data Analysis (EDA) and visualization of a popular Kaggle dataset using Pandas and Seaborn.",
-            "image": "images/kaggle-eda.png",
+            "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/kaggle-eda"
         }
     ]
