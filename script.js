@@ -1,23 +1,27 @@
-{
-    "projects": [
-        {
-            "title": "Sales Dashboard",
-            "description": "An interactive Power BI dashboard for sales analysis.",
-            "image": "images/sales_dashboard.png",
-            "link": "https://your-link-to-project.com"
-        },
-        {
-            "title": "Customer Segmentation",
-            "description": "Clustering customers based on purchasing behavior using Python.",
-            "image": "images/customer_segmentation.png",
-            "link": "https://your-link-to-project.com"
-        },
-        {
-            "title": "Excel Automation",
-            "description": "Automating data cleaning and visualization in Excel using VBA.",
-            "image": "images/excel_automation.png",
-            "link": "https://your-link-to-project.com"
-        }
-    ]
-}
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("projects.json")
+        .then(response => response.json())
+        .then(data => {
+            const projectsContainer = document.getElementById("projects-container");
+            projectsContainer.innerHTML = ""; // Clear existing content
 
+            data.projects.forEach(project => {
+                const projectCard = document.createElement("div");
+                projectCard.className = "project-card";
+
+                projectCard.innerHTML = `
+                    <div class="project-image">
+                        <img src="${project.image}" alt="${project.title}">
+                    </div>
+                    <div class="project-info">
+                        <h3>${project.title}</h3>
+                        <p>${project.description}</p>
+                        <a href="${project.link}" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                `;
+
+                projectsContainer.appendChild(projectCard);
+            });
+        })
+        .catch(error => console.error("Error loading projects:", error));
+});
