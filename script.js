@@ -59,9 +59,11 @@ function showMoreDetails(description) {
         modalContent.style.backgroundColor = "white";
         modalContent.style.padding = "20px";
         modalContent.style.overflowY = "auto";
+        modalContent.style.borderRadius = "10px";
+        modalContent.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
 
         const closeButton = document.createElement("button");
-        closeButton.className = "btn btn-close";
+        closeButton.className = "btn-close";
         closeButton.style.position = "absolute";
         closeButton.style.top = "10px";
         closeButton.style.right = "10px";
