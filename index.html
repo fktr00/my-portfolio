@@ -40,6 +40,15 @@
     <section id="projects" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center">Projects</h2>
+            <div class="text-center mb-4">
+                <label for="projectLimit" class="me-2">Show:</label>
+                <select id="projectLimit" class="form-select form-select-sm d-inline-block w-auto">
+                    <option value="3">3</option>
+                    <option value="9">9</option>
+                    <option value="27">27</option>
+                    <option value="all">Show All</option>
+                </select>
+            </div>
             <div id="project-list" class="row row-cols-1 row-cols-md-3 g-4"></div>
         </div>
     </section>
