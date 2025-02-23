@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     fetch("projects.json")
-       .then(response => response.json())
-       .then(data => {
+        .then(response => response.json())
+        .then(data => {
             const projectsContainer = document.getElementById("project-list");
             projectsContainer.innerHTML = ""; // Clear existing content
 
@@ -15,13 +15,33 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="card-body">
                             <h3 class="card-title">${project.title}</h3>
                             <p class="card-text">${project.description}</p>
-                            <a href="${project.link}" target="_blank" class="btn btn-primary">View Project</a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal" 
+                                data-title="${project.title}" data-description="${project.detailedDescription}" data-image="${project.image}">
+                                View Project
+                            </button>
                         </div>
                     </div>
                 `;
 
                 projectsContainer.appendChild(projectCard);
             });
+
+            // Handle modal display
+            const modal = document.getElementById('projectModal');
+            modal.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget; // Button that triggered the modal
+                const title = button.getAttribute('data-title');
+                const description = button.getAttribute('data-description');
+                const image = button.getAttribute('data-image');
+
+                const modalTitle = modal.querySelector('.modal-title');
+                const modalDescription = modal.querySelector('#projectDescription');
+                const modalImage = modal.querySelector('#projectImage');
+
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modalImage.src = image;
+            });
         })
-       .catch(error => console.error("Error loading projects:", error));
+        .catch(error => console.error("Error loading projects:", error));
 });
