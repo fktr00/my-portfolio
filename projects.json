@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "title": "Sales Dashboard",
+            "description": "An interactive Power BI dashboard analyzing sales trends.",
+            "image": "images/sales_dashboard.jpg",
+            "link": "https://yourprojectlink.com"
+        },
+        {
+            "title": "Customer Segmentation",
+            "description": "A Jupyter Notebook project clustering customers based on purchasing behavior.",
+            "image": "images/customer_segmentation.jpg",
+            "link": "https://yourprojectlink.com"
+        },
+        {
+            "title": "Excel Data Analysis",
+            "description": "Advanced Excel analysis using pivot tables and macros.",
+            "image": "images/excel_analysis.jpg",
+            "link": "https://yourprojectlink.com"
+        }
+    ]
+}
