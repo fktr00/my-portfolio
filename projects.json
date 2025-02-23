@@ -3,24 +3,28 @@
         {
             "title": "Sales Dashboard in Power BI",
             "description": "An interactive Power BI dashboard showcasing sales trends, customer segmentation, and revenue insights.",
+            "detailedDescription": "This project involved creating a comprehensive sales dashboard using Power BI, including data visualization, filtering, and drill-down capabilities.",
             "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/sales-dashboard"
         },
         {
             "title": "Excel Data Analysis Report",
             "description": "A detailed Excel report analyzing company performance using pivot tables, charts, and formulas.",
+            "detailedDescription": "This project involved creating a detailed Excel report to analyze company performance, including data analysis, visualization, and recommendations for improvement.",
             "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/excel-report"
         },
         {
             "title": "Python Jupyter Notebook - Customer Churn",
             "description": "A predictive model built in Jupyter Notebook to analyze customer churn using machine learning.",
+            "detailedDescription": "This project involved building a predictive model using Jupyter Notebook and machine learning algorithms to analyze customer churn and identify factors that contribute to it.",
             "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/churn-analysis"
         },
         {
             "title": "Kaggle Dataset Analysis",
             "description": "Exploratory Data Analysis (EDA) and visualization of a popular Kaggle dataset using Pandas and Seaborn.",
+            "detailedDescription": "This project involved performing exploratory data analysis and visualization of a popular Kaggle dataset using Pandas and Seaborn, including data cleaning, feature engineering, and model selection.",
             "image": "images/wallhaven-qz782q.jpg",
             "link": "https://www.example.com/kaggle-eda"
         }
