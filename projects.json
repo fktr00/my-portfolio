@@ -1,22 +1,28 @@
 {
     "projects": [
         {
-            "title": "Sales Dashboard",
-            "description": "An interactive Power BI dashboard analyzing sales trends.",
-            "image": "images/wallhaven-qz782q.jpg",
-            "link": "https://yourprojectlink.com"
+            "title": "Sales Dashboard in Power BI",
+            "description": "An interactive Power BI dashboard showcasing sales trends, customer segmentation, and revenue insights.",
+            "image": "images/sales-dashboard.png",
+            "link": "https://www.example.com/sales-dashboard"
         },
         {
-            "title": "Customer Segmentation",
-            "description": "A Jupyter Notebook project clustering customers based on purchasing behavior.",
-            "image": "images/wallhaven-qz782q.jpg",
-            "link": "https://yourprojectlink.com"
+            "title": "Excel Data Analysis Report",
+            "description": "A detailed Excel report analyzing company performance using pivot tables, charts, and formulas.",
+            "image": "images/excel-report.png",
+            "link": "https://www.example.com/excel-report"
         },
         {
-            "title": "Excel Data Analysis",
-            "description": "Advanced Excel analysis using pivot tables and macros.",
-            "image": "images/wallhaven-qz782q.jpg",
-            "link": "https://yourprojectlink.com"
+            "title": "Python Jupyter Notebook - Customer Churn",
+            "description": "A predictive model built in Jupyter Notebook to analyze customer churn using machine learning.",
+            "image": "images/churn-analysis.png",
+            "link": "https://www.example.com/churn-analysis"
+        },
+        {
+            "title": "Kaggle Dataset Analysis",
+            "description": "Exploratory Data Analysis (EDA) and visualization of a popular Kaggle dataset using Pandas and Seaborn.",
+            "image": "images/kaggle-eda.png",
+            "link": "https://www.example.com/kaggle-eda"
         }
     ]
 }
