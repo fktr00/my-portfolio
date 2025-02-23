@@ -14,11 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="${project.image}" class="card-img-top" alt="${project.title}">
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title">${project.title}</h3>
-                            <p class="card-text flex-grow-1">${project.description}</p>
-                            <button type="button" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#projectModal" 
-                                    data-title="${project.title}" data-description="${project.detailedDescription}" data-image="${project.image}">
-                                View Project
-                            </button>
+                            <p class="card-text flex-grow-1 mb-4">${project.description}</p>
+                            <div class="mt-auto">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal" 
+                                        data-title="${project.title}" data-description="${project.detailedDescription}" data-image="${project.image}">
+                                    View Project
+                                </button>
+                            </div>
                         </div>
                     </div>
                 `;
